@@ -46,6 +46,7 @@ function calculate () {
     //sempre executar essas linhaspor padrao
     resultInput.value = 'ERROR'
     resultInput.classList.add('error')
+    console.log ('calculate')
 //logo ele vai calcular os resultados
     const result = eval(input.value)
 
